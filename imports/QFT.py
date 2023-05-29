@@ -1,4 +1,5 @@
 import numpy as np
+
 # "radix-2 Cooley-Tukey" algorithm
 def qft(x):
     N = len(x)
